@@ -37,7 +37,7 @@ namespace Lista
             {
                 Console.WriteLine("El Nombre: " + busqueda + " no se encontro en la lista");
             }
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         public void ImprimeDatos()
@@ -47,7 +47,7 @@ namespace Lista
             {
                 Console.WriteLine(item);
             }
-            Console.ReadKey();
+            //Console.ReadKey();
         }
         public void EliminaDato()
         {
@@ -57,7 +57,7 @@ namespace Lista
             if (Lista.Contains(busqueda))
             {
                 Lista.Remove(busqueda);
-                Console.WriteLine("Luego de la eliminacion la lista quedo de la siguiente manera:");
+                Console.WriteLine("Se elimino: " + busqueda);
                 ImprimeDatos();
             }
             else
@@ -66,7 +66,6 @@ namespace Lista
                 Console.WriteLine("La lista de elementos disponibles es la liguiente:");
                 ImprimeDatos();
             }
-            Console.ReadKey();
         }
 
     }
