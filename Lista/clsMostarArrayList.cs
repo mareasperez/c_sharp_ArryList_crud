@@ -37,7 +37,6 @@ namespace Lista
             {
                 Console.WriteLine("El Nombre: " + busqueda + " no se encontro en la lista");
             }
-            //Console.ReadKey();
         }
 
         public void ImprimeDatos()
@@ -47,7 +46,6 @@ namespace Lista
             {
                 Console.WriteLine(item);
             }
-            //Console.ReadKey();
         }
         public void EliminaDato()
         {

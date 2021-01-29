@@ -11,10 +11,6 @@ namespace Lista
         static void Main(string[] args)
         {
             clsMostarArrayList Muestra = new clsMostarArrayList();
-            //Muestra.Capturadatos();
-            //Muestra.ImprimeDatos();
-            //Muestra.BuscaDato();
-            //Muestra.EliminaDato();
             bool continuar = true;
             char seleccion;
             do
